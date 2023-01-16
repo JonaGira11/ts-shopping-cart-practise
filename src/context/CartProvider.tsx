@@ -127,6 +127,8 @@ const initCartContextState: UseCartContextType = {
 // making the cart context 
 const CartContext = createContext<UseCartContextType>(initCartContextState)
 
+
+// the type for the children prop 
 type ChildrenType = { children?: ReactElement | ReactElement[] }
 
 
