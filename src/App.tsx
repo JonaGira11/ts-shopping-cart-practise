@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Foot from './components/Foot';
+import Footer from './components/Footer';
 import Cart from './components/Cart';
 import ProductList from './components/ProductList';
 import { useState } from 'react'
@@ -18,11 +18,7 @@ function App() {
   )
 
 
-  return (
-    <div className="App">
-
-    </div>
-  )
+  return content
 }
 
 export default App
